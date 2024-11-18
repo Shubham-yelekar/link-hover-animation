@@ -1,13 +1,16 @@
 import './App.css'
 import { FaBeer } from 'react-icons/fa';
+import LinkHover from './components/LinkHover';
 
 function App() {
 
 
   return (
-    <>
-      <h1 className='text-2xl text-gray-100'>New Project 🍺 </h1>
-    </>
+    <main className="h-screen w-full justify-between flex flex-col items-center">
+      <div></div>
+      <LinkHover/>
+      <a className="repo-link" href="#" target="_blank">repo link ➤</a>
+    </main>
   )
 }
 
